@@ -1,11 +1,11 @@
 import { Resend } from 'resend';
-const resend = new Resend('re_123456789');
+const resend = new Resend("re_JJA7VP3J_Q8nPgxQhsuTqwDDizEwWModF");
 
 (async function() {
   try {
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['delivered@resend.dev'],
+      from: 'Thais <onboarding@resend.dev>',
+      to: ['ti.dosantos.pablo@gmail.com'],
       subject: 'Hello World',
       html: '<strong>It works!</strong>'
     });
